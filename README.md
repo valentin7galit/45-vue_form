@@ -1,4 +1,6 @@
-# my-project
+# My homework "Create a form for order details" for Vue.js
+![DeepinScreenshot_select-area_20210623120818](https://user-images.githubusercontent.com/68608972/123077249-8d53fb80-d422-11eb-9fa5-73bcd6a815ae.png)
+
 
 ## Project setup
 ```
