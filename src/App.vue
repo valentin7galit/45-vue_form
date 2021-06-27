@@ -1,35 +1,33 @@
 <template>
   <div id="app">
-    <OrderDetail msg="Order Details"/>
+    <div id="nav">
+      <router-link to="/">OrderDetail</router-link> |
+      <router-link to="/component">Component</router-link>
+    </div>
+    <router-view/>
   </div>
 </template>
-
-<script>
-import OrderDetail from './components/OrderDetail.vue'
-
-export default {
-  name: 'App',
-  components: {
-    OrderDetail
-  }
-}
-</script>
 
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
   color: #2c3e50;
-  margin: auto;
-  margin-top: 15px;
-  border: 1px solid #2c3e50;
-  border-radius: 5px;
-  width: 80%;
+  padding-bottom: 25px;
 }
-@media (max-width: 960px) {
-  #app {
-    width: 100%;
-  }
+
+#nav {
+  padding: 0px;
+}
+
+#nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+#nav a.router-link-exact-active {
+  color: #42b983;
 }
 </style>
