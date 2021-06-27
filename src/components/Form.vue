@@ -105,7 +105,7 @@
 
 <script>
 export default {
-  name: 'OrderDetail',
+  name: 'Form',
   props: {
     msg: String
   },
